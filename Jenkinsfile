@@ -23,5 +23,12 @@ cp ./spigot-1.17.1.jar ../server.jar'''
       }
     }
 
+    stage('Start BungeeCord') {
+      steps {
+        sh '''cd ./BungeeCord
+JENKINS_NODE_COOKIE=dontKillMe nohup bash start.sh > log &'''
+      }
+    }
+
   }
 }
