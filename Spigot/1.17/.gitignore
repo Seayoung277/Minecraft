@@ -1,0 +1,5 @@
+/build
+/logs
+/world*
+/plugins/CoreProtect/database.db
+log

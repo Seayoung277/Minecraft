@@ -1,0 +1,149 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 10.0.0.155
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1627286708482
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1627290438931
+  login: 1627286135151
+money: '0'
+last-account-name: Seayoung277
+logoutlocation:
+  world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+  x: 163.5
+  y: 63.0
+  z: -329.5
+  yaw: 2.1000308990478516
+  pitch: 10.199833869934082
+homes:
+  castle:
+    world: 0aeb568c-1791-481d-baf8-75920686db37
+    x: -129.6604954271313
+    y: 72.0
+    z: -266.07341731578896
+    yaw: -178.63507080078125
+    pitch: 9.600007057189941
+  home:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 163.57806790037392
+    y: 63.0
+    z: -328.5436531387951
+    yaw: 2.1000308990478516
+    pitch: 10.199833869934082
+  endcity:
+    world: cf500dae-3ce4-4430-ab6a-e44b2124b478
+    x: -1652.076783509172
+    y: 122.0
+    z: 42.425843407502995
+    yaw: 85.79156494140625
+    pitch: 11.849920272827148
+  end:
+    world: cf500dae-3ce4-4430-ab6a-e44b2124b478
+    x: 0.4870116044441746
+    y: 65.0
+    z: -5.353465563632065
+    yaw: -3.1498773097991943
+    pitch: 41.100059509277344
+  ocean:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 607.1392325329374
+    y: 63.0
+    z: -930.2224103970374
+    yaw: -176.89280700683594
+    pitch: 32.39997100830078
+  map:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 1982.6835031575185
+    y: 64.0
+    z: 2019.6576977529671
+    yaw: -136.9932098388672
+    pitch: 15.749998092651367
+  sand:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: -234.69584067321708
+    y: 70.0
+    z: 195.22146488423732
+    yaw: 22.503173828125
+    pitch: 16.50045394897461
+  trade:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 250.66438187952787
+    y: 63.0
+    z: -335.33099765243463
+    yaw: -69.300048828125
+    pitch: 4.349973201751709
+  tnt:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 992.9849144373645
+    y: 63.0
+    z: -1175.0543998873602
+    yaw: 179.52249145507812
+    pitch: 18.9000301361084
+  tntafk:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 997.6500882658128
+    y: 180.0
+    z: -1185.6066445459862
+    yaw: 45.7315673828125
+    pitch: 38.249874114990234
+  toilet:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 236.97742664069162
+    y: 59.0
+    z: -373.69999998807907
+    yaw: 108.75047302246094
+    pitch: 41.25002670288086
+  tmp:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 190.8521872116519
+    y: 21.0
+    z: -344.53260508906624
+    yaw: 84.74873352050781
+    pitch: 35.700557708740234
+  slime:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 203.5
+    y: 5.0
+    z: -363.5
+    yaw: 159.62872314453125
+    pitch: 17.09964370727539
+  coral:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: -4164.8432023119685
+    y: 66.0
+    z: -642.517361063957
+    yaw: -7.949737548828125
+    pitch: 32.25009536743164
+  mansion:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: -4915.510064572591
+    y: 97.0
+    z: -4648.31783863905
+    yaw: -36.299957275390625
+    pitch: 7.950103282928467
+  xp:
+    world: cf500dae-3ce4-4430-ab6a-e44b2124b478
+    x: 88.65408327247708
+    y: 1.0
+    z: -280.9940360781917
+    yaw: 178.7987060546875
+    pitch: 47.999969482421875
+lastlocation:
+  world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+  x: 241.38610720648995
+  y: 62.9375
+  z: -373.53751335079534
+  yaw: 48.20880126953125
+  pitch: 13.499919891357422

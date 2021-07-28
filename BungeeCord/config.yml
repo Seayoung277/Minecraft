@@ -1,0 +1,55 @@
+listeners:
+- query_port: 25565
+  motd: New 1.17 world is online! Switch to 1.17 client to join the all new journey!
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  proxy_protocol: false
+  ping_passthrough: false
+  priorities:
+  - s17
+  - s16
+  bind_local_address: true
+  host: 0.0.0.0:25565
+  max_players: 1
+  tab_size: 10
+  force_default_server: false
+  forced_hosts:
+    pvp.md-5.net: s17
+remote_ping_cache: -1
+network_compression_threshold: 256
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+log_pings: true
+connection_throttle_limit: 3
+server_connect_timeout: 5000
+timeout: 30000
+stats: 028b2f72-34fc-4a33-9c76-0ae37bb83cb1
+player_limit: -1
+ip_forward: true
+groups:
+  seayoung277:
+  - admin
+remote_ping_timeout: 5000
+connection_throttle: 4000
+log_commands: false
+prevent_proxy_connections: false
+online_mode: true
+forge_support: false
+disabled_commands:
+- disabledcommandhere
+servers:
+  s17:
+    motd: Spigot 1.17 Survival
+    address: localhost:25567
+    restricted: false
+  s16:
+    motd: Spigot 1.16 Survival
+    address: localhost:25566
+    restricted: false

@@ -1,0 +1,28 @@
+lastAccountName: LynieCN
+timestamps:
+  login: 1617423302351
+  logout: 1617425986792
+  lastteleport: 1617424031544
+ipAddress: 112.6.124.173
+logoutlocation:
+  world: world
+  x: -687.0908825117265
+  y: 70.0
+  z: -692.3386336770776
+  yaw: -336.5269
+  pitch: -4.519803
+lastlocation:
+  world: world
+  x: -473.4968095863649
+  y: 11.0
+  z: -875.775045412472
+  yaw: 278.95813
+  pitch: 5.054204
+homes:
+  home:
+    world: world
+    x: -503.6020929320011
+    y: 67.0
+    z: -954.0605513021181
+    yaw: -147.49397
+    pitch: 1.6074045

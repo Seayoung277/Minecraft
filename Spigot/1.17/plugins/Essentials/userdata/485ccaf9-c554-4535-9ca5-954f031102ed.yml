@@ -1,0 +1,86 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 98.42.226.114
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1627286429429
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1627291367974
+  login: 1627290779431
+money: '0'
+last-account-name: Milk_echo
+homes:
+  home:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 163.3401832280642
+    y: 63.0
+    z: -325.83167778037847
+    yaw: -82.13712310791016
+    pitch: 8.850217819213867
+  mine:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 239.84382590418707
+    y: 9.0
+    z: -375.43751690901445
+    yaw: 78.9118423461914
+    pitch: 22.949865341186523
+  toliet:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 237.04845717104163
+    y: 53.0
+    z: -373.83305891860937
+    yaw: -166.499755859375
+    pitch: 0.15015222132205963
+  tntafk:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 997.5
+    y: 180.0
+    z: -1185.5
+    yaw: 45.7315673828125
+    pitch: 38.249874114990234
+  tnt:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 992.9833840283608
+    y: 64.0
+    z: -1177.7641332094329
+    yaw: -137.42758178710938
+    pitch: -2.3999876976013184
+  iron:
+    world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+    x: 269.24141445531376
+    y: 63.5
+    z: -332.25218873686947
+    yaw: 11.913093566894531
+    pitch: 20.700244903564453
+  xp:
+    world: cf500dae-3ce4-4430-ab6a-e44b2124b478
+    x: 91.41106281233878
+    y: 1.0
+    z: -282.1464845422679
+    yaw: 112.04946899414062
+    pitch: 31.65010643005371
+lastlocation:
+  world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+  x: 170.84437630013426
+  y: 63.0
+  z: -323.03029491877015
+  yaw: -177.68711853027344
+  pitch: 11.550209999084473
+logoutlocation:
+  world: 2dcae139-da8e-4142-adc6-7d38faf8a4f1
+  x: 230.19932725580594
+  y: 63.5
+  z: -374.6629973396617
+  yaw: 156.00076293945312
+  pitch: 34.20000457763672

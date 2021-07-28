@@ -1,0 +1,56 @@
+lastAccountName: Milk_echo
+timestamps:
+  login: 1623220294823
+  lastteleport: 1623225603890
+  logout: 1623226846061
+ipAddress: 98.234.141.223
+lastlocation:
+  world: world
+  x: -498.3302008302466
+  y: 64.5
+  z: -943.3359072647951
+  yaw: -140.25392
+  pitch: 7.500229
+logoutlocation:
+  world: world
+  x: -480.11226730255123
+  y: 64.0
+  z: -871.4266387355709
+  yaw: 216.59999
+  pitch: 8.850025
+homes:
+  home:
+    world: world
+    x: -481.0275379808237
+    y: 64.0
+    z: -871.4895638967513
+    yaw: -270.14993
+    pitch: 31.200026
+  mine:
+    world: world
+    x: -486.52397149425695
+    y: 11.0
+    z: -873.5334442307591
+    yaw: 123.41675
+    pitch: 20.400042
+  castle:
+    world: world_nether
+    x: -712.0012577276156
+    y: 67.875
+    z: 156.28830519276227
+    yaw: -310.04474
+    pitch: 17.55017
+  chazi:
+    world: world
+    x: -1034.237500011921
+    y: 122.0
+    z: -640.3000000119209
+    yaw: -34.795654
+    pitch: 16.04996
+  chazi2:
+    world: world
+    x: -1049.5514398826435
+    y: 252.0
+    z: -654.9926333615277
+    yaw: -1.9499744
+    pitch: 15.300013
