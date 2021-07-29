@@ -37,7 +37,7 @@ JENKINS_NODE_COOKIE=dontKillMe nohup bash start.sh &'''
     stage('Start 1.16') {
       steps {
         sh '''pid=$(lsof -t -i :25566)
-kill $pid
+[[ ! -z "$pid" ]] && kill $pid
 cd ./Spigot/1.16
 rm -f ./plugins/CoreProtect/database.db
 rm -rf ./worl*
