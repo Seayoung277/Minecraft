@@ -25,8 +25,7 @@ cp ./spigot-1.17.1.jar ../server.jar'''
 
     stage('Start BungeeCord') {
       steps {
-        sh '''pid=$(lsof -t -i :25565)
-kill $pid
+        sh '''if [[ ! -z "$(lsof -t -i :25565)" ]] ; then kill $(lsof -t -i :25566) fi
 cd ./BungeeCord
 rm -f BungeeCord.jar
 wget https://ci.md-5.net/job/BungeeCord/lastSuccessfulBuild/artifact/bootstrap/target/BungeeCord.jar
@@ -36,7 +35,7 @@ JENKINS_NODE_COOKIE=dontKillMe nohup bash start.sh &'''
 
     stage('Start 1.16') {
       steps {
-        sh '''[[ ! -z "$(lsof -t -i :25566)" ]] && kill $pid
+        sh '''if [[ ! -z "$(lsof -t -i :25566)" ]] ; then kill $(lsof -t -i :25566) fi
 cd ./Spigot/1.16
 rm -f ./plugins/CoreProtect/database.db
 rm -rf ./worl*
