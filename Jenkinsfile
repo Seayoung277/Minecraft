@@ -34,5 +34,18 @@ JENKINS_NODE_COOKIE=dontKillMe nohup bash start.sh &'''
       }
     }
 
+    stage('Start 1.16') {
+      steps {
+        sh '''pid=$(lsof -t -i :25566)
+kill $pid
+cd ./Spigot/1.16
+rm -f ./plugins/CoreProtect/database.db
+rm -rf ./worl*
+cp ~/Minecraft/FileStore/1.16/database.db ./plugins/CoreProtect/
+cp -r ~/Minecraft/FileStore/1.16/worl* ./
+JENKINS_NODE_COOKIE=dontKillMe nohup bash start.sh &'''
+      }
+    }
+
   }
 }
