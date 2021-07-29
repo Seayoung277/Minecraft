@@ -25,7 +25,9 @@ cp ./spigot-1.17.1.jar ../server.jar'''
 
     stage('Start BungeeCord') {
       steps {
-        sh '''cd ./BungeeCord
+        sh '''pid=$(lsof -t -i :25565)
+kill $pid
+cd ./BungeeCord
 rm -f BungeeCord.jar
 wget https://ci.md-5.net/job/BungeeCord/lastSuccessfulBuild/artifact/bootstrap/target/BungeeCord.jar
 JENKINS_NODE_COOKIE=dontKillMe nohup bash start.sh &'''
