@@ -12,8 +12,6 @@ fi
 if [[ ! -z "$(lsof -t -i :25567)" ]] ; then
 kill $(lsof -t -i :25567)
 fi
-git add . && git commit -m "Backup"
-git push
 cp -r ./Spigot/1.16/worl* /home/seayoung/Minecraft/FileStore/1.16/
 cp -r ./Spigot/1.17/worl* /home/seayoung/Minecraft/FileStore/1.17/'''
       }
@@ -68,6 +66,11 @@ JENKINS_NODE_COOKIE=dontKillMe nohup bash start.sh &'''
 JENKINS_NODE_COOKIE=dontKillMe nohup bash start.sh &'''
       }
     }
-
+    stage('Push Changes') {
+      steps {
+        sh '''git add . && git commit -m \'Back up\'
+git push'''
+      }
+    }
   }
 }
