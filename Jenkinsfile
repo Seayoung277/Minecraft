@@ -43,8 +43,20 @@ fi
 cd ./Spigot/1.16
 rm -f ./plugins/CoreProtect/database.db
 rm -rf ./worl*
-cp ~/Minecraft/FileStore/1.16/database.db ./plugins/CoreProtect/
-cp -r ~/Minecraft/FileStore/1.16/worl* ./
+cp /home/seayoung/Minecraft/FileStore/1.16/database.db ./plugins/CoreProtect/
+cp -r /home/seayoung/Minecraft/FileStore/1.16/worl* ./
+JENKINS_NODE_COOKIE=dontKillMe nohup bash start.sh &'''
+      }
+    }
+
+    stage('Start 1.17') {
+      steps {
+        sh '''if [[ ! -z "$(lsof -t -i :25567)" ]] ; then
+kill $(lsof -t -i :25567)
+fi
+cd ./Spigot/1.17
+rm -rf ./worl*
+cp -r /home/seayoung/Minecraft/FileStore/1.17/worl* ./
 JENKINS_NODE_COOKIE=dontKillMe nohup bash start.sh &'''
       }
     }
